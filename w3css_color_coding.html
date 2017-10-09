@@ -1,0 +1,67 @@
+<!-- An example inspired by  tutorialspoint and modified with reference to
+    w3schools -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The W3.CSS Syntax Highlighter</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+  <header class="w3-container w3-teal">
+    <h2>HTML Syntax Highlighted</h2>
+  </header>
+
+  <div class="w3-code htmlHigh notranslate">
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;title&gt;HTML Tutorial&lt;/title&gt;
+    &lt;body&gt;
+      &lt;h1&gt;This is a heading&lt;/h1&gt;
+      &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
+  </div>
+
+    <header class="w3-container w3-teal">
+      <h2>CSS Syntax Highlighted</h2>
+    </header>
+
+    <div class="w3-code cssHigh notranslate">
+      <pre>
+      body {
+        background-color: #d0e4fe;
+      }
+
+      h1 {
+        color: orange;
+        text-align: center;
+      }
+
+      p {
+        font-family: "Times New Roman";
+        font-size: 20px;
+      }
+    </pre>
+    </div>
+
+    <header class="w3-container w3-teal">
+      <h2>JS Syntax Highlighted</h2>
+    </header>
+    <div class="w3-code jsHigh notranslate">
+      <pre>
+      fruits[0] = "Banana";
+      fruits[1] = "Apple";
+      fruits[2] = "Mango";
+      fruits[3] = "Plum";
+    </pre>
+    </div>
+    <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+    <script>
+    w3CodeColor();
+    </script>
+</body>
+</html>
