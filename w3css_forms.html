@@ -1,0 +1,64 @@
+<!-- An example taken from tutorialspoint -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The W3.CSS Forms</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <div class="w3-container">
+    <form class="w3-panel w3-card" style="width:500px;">
+      <div class="w3-group">
+        <input class="w3-input w3-leftbar w3-border-green" type="text" style="width:80%;" required>
+        <label for="" class="w3-label">User Name</label>
+      </div>
+      <div class="w3-group">
+        <input class="w3-input w3-leftbar w3-border-green" type="text" style="width:80%;" required>
+        <label for="" class="w3-label">Email</label>
+      </div>
+      <div class="w3-group">
+        <textarea class="w3-input w3-leftbar w3-border-green" style="width:80%;" required></textarea>
+        <label for="" class="w3-label">Comments</label>
+      </div>
+
+      <div class="w3-row">
+        <div class="w3-half">
+          <label class="w3-checkbox">
+            <input type="checkbox" checked>
+            <div class="w3-checkmark"></div> Married
+          </label>
+          <br>
+          <label for="" class="w3-checkbox">
+            <input type="checkbox">
+            <div class="w3-checkmark"></div> Single
+          </label>
+          <br>
+          <label for="" class="w3-checkbox">
+            <input type="checkbox" disabled>
+            <div class="w3-checkmark"></div> Don't know (Disabled)
+          </label>
+          <br>
+          <br>
+        </div>
+        <div class="w3-half">
+          <label class="w3-chackbox">
+            <input type="radio" name="gender" value="male" checked>
+            <div class="w3-checkmark"></div> Male
+          </label>
+          <br>
+          <label class="w3-chackbox">
+            <input type="radio" name="gender" value="female">
+            <div class="w3-checkmark"></div> Female
+          </label>
+          <br>
+          <label class="w3-chackbox">
+            <input type="radio" name="gender" value="female" disabled>
+            <div class="w3-checkmark"></div> Don't know (Disabled)
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
